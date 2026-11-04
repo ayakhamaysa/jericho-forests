@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* ألوان أريحا: سما المغيب، الرمل، ميّة البركة */
+@theme {
+  --color-night: #10241f;      /* أخضر غابة غامق */
+  --color-dusk: #24433a;
+  --color-sun: #3fb188;        /* أخضر اللوجو */
+  --color-sand: #f2f5ef;
+  --color-clay: #2f8f6d;
+  --color-pool: #1d5f8f;       /* أزرق الموجة باللوجو */
+  --color-palm: #173a31;
+  --color-ink: #13211d;
+
+  --font-display: "Aref Ruqaa", serif;
+  --font-sans: "Readex Pro", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-sand text-ink font-sans antialiased;
+}
